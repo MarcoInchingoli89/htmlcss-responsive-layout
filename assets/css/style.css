@@ -30,3 +30,28 @@ img {
     --bgabout--: #B4B4B4;
 
 }
+
+/* Header */
+
+header {
+    background-color: var(--secondary--);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Debug */
+
+.debug .logo {
+    height: 30px;
+    border: 1px solid;
+    width: 150px;
+}
+
+.debug header {
+    height: 60px;
+}
