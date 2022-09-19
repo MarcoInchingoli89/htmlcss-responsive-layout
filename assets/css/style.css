@@ -44,6 +44,10 @@ header nav {
     padding: 1rem 0;
 }
 
+.main_menu {
+    display: none;
+}
+
 /* Debug */
 
 .debug .logo {
@@ -54,4 +58,31 @@ header nav {
 
 .debug header {
     height: 60px;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (min-width: 480px) {
+
+    .main_menu {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+    .main_menu {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+
+    .main_menu {
+        display: block;
+    }
+
 }
