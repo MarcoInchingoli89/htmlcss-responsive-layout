@@ -44,6 +44,29 @@ header nav {
     padding: 1rem 0;
 }
 
+nav img {
+    width: 4rem;
+}
+
+.main_menu {
+    list-style: none;
+}
+
+.main_menu li {
+    display: inline-block;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: var(--bgwhite--);
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.main_menu .btn_white {
+    color: var(--dark--);
+}
+
 /* Main */
 
 .planning {
@@ -102,17 +125,29 @@ footer {
     width: calc((100% / 12) *12);
 }
 
+.btn_blue {
+    border-radius: 1.6rem;
+    height: 1rem;
+    padding: 1rem 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    line-height: 0;
+    font-size: 0.9rem;
+    border: var(--secondary--);
+    color: var(--bgwhite--);
+    background-color: var(--secondary--);
+  }
+
+  .btn_white {
+    border-radius: 1.6rem;
+    line-height: 0;
+    font-size: 0.9rem;
+    color: var(--dark--);
+    background-color: var(--bgwhite--);
+  }
+
+
 /* Debug */
-
-.debug .logo {
-    height: 30px;
-    border: 1px solid;
-    width: 150px;
-}
-
-.debug header {
-    height: 60px;
-}
 
 .debug .demo {
     height: 500px;
