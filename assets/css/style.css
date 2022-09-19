@@ -59,6 +59,21 @@ header nav {
     border-radius: 50%;
 }
 
+.benefits {
+    background-color: var(--primary--);
+}
+
+.call_to_action {
+    background-color: var(--primary--);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--dark--);
+}
+
 /* Utilities */
 
 .row {
@@ -133,7 +148,11 @@ header nav {
 
 .debug .call_to_action {
     height: 350px;
-    background-color: chartreuse;
+    
+}
+
+.debug footer {
+    height: 200px;
 }
 
 .debug [class^="col"] {
