@@ -1,3 +1,5 @@
+/* Common */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +13,20 @@
 
 img {
     max-width: 100%;
+}
+
+/* Colors Palette */
+
+:root {
+    
+    --primary--: #9792E4;
+    --secondary--: #0084FD;
+    --dark--: #333333;
+    --demo--: #B5DDFF;
+    --getstarted--: #C2BFEF;
+    --bgtestimonial--: #E7E8EA;
+    --free--: #FDC15F;
+    --bgwhite--: #FFFFFF;
+    --bgabout--: #B4B4B4;
+
 }
