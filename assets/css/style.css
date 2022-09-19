@@ -46,6 +46,12 @@ header nav {
 
 /* Main */
 
+.planning {
+    background-color:var(--primary--);
+}
+
+/* Utilities */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +64,10 @@ header nav {
 
 .col_4, .md_4 {
     width: calc((100% / 12) *4);
+}
+
+.col_6 {
+    width: calc((100% / 12) *6);
 }
 
 .col_8, .md_8 {
@@ -85,6 +95,10 @@ header nav {
     background-color: red;
 }
 
+.debug .planning {
+    height: 500px;
+}
+
 .debug [class^="col"] {
     background-color: pink;
     border: 1px solid black;
@@ -105,6 +119,10 @@ header nav {
 
     .main_menu {
         display: none;
+    }
+
+    .planning .col_6 {
+        width: calc((100% / 12) *12);
     }
 }
    
