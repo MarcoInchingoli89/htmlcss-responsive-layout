@@ -131,6 +131,11 @@ header nav {
     width: 80px;
 }
 
+.debug .call_to_action {
+    height: 350px;
+    background-color: chartreuse;
+}
+
 .debug [class^="col"] {
     background-color: pink;
     border: 1px solid black;
