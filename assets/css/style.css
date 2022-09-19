@@ -109,8 +109,8 @@ header nav {
 }
 
 .debug .testimonials {
-    height: 500px;
-    background-color: aqua;
+    height: 700px;
+    background-color: aquamarine;
 }
 
 .debug .heading {
@@ -153,8 +153,12 @@ header nav {
         display: none;
     }
 
-    .planning .col_6 {
+    .md_12 {
         width: calc((100% / 12) *12);
+    }
+
+    .md_6 {
+        width: calc((100% / 12) *6);
     }
 }
    
@@ -166,7 +170,7 @@ header nav {
         display: none;
     }
 
-    .demo .col_8, .col_4 {
+    .sm_12 {
         width: calc((100% / 12) *12);
     }
 
