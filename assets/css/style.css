@@ -50,6 +50,15 @@ header nav {
     background-color:var(--primary--);
 }
 
+.testimonial {
+    display: flex;
+    margin: auto;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
 /* Utilities */
 
 .row {
@@ -97,6 +106,29 @@ header nav {
 
 .debug .planning {
     height: 500px;
+}
+
+.debug .testimonials {
+    height: 500px;
+    background-color: aqua;
+}
+
+.debug .heading {
+    height: 200px;
+    background-color: blue;
+}
+
+.debug .testimonial {
+    height: 150px;
+    width: 350px;
+    background-color:antiquewhite;
+    border: 1px solid;
+}
+
+.debug .avatar {
+    background-color: brown;
+    height: 80px;
+    width: 80px;
 }
 
 .debug [class^="col"] {
