@@ -69,6 +69,36 @@ nav img {
 
 /* Main */
 
+.card {
+    background-color: var(--demo--);
+    border-radius: 1.6rem;
+}
+
+.content_text {
+    text-align: left;
+}
+
+.card h3 {
+    color: var(--secondary--);
+    padding: 1rem;
+}
+
+.card p {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.card img {
+    width: 150px;
+    margin-right: 2rem;
+    float: right;
+}
+
+.card .btn_blue {
+    margin-left: 1rem;
+}
+
 .planning {
     background-color:var(--primary--);
 }
@@ -146,13 +176,19 @@ footer {
     background-color: var(--bgwhite--);
   }
 
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 /* Debug */
 
-.debug .demo {
+/* .debug .demo {
     height: 500px;
     background-color: red;
-}
+} */
 
 .debug .planning {
     height: 500px;
@@ -190,11 +226,11 @@ footer {
     height: 200px;
 }
 
-.debug [class^="col"] {
+/* .debug [class^="col"] {
     background-color: pink;
     border: 1px solid black;
     height: 250px;
-}
+} */
 
 /* Responsive */
 
