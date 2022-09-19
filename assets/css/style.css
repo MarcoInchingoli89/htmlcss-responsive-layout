@@ -71,7 +71,7 @@ header nav {
     padding: 0 1rem;
 }
 
-.col_4, .md_4 {
+.col_4 {
     width: calc((100% / 12) *4);
 }
 
@@ -79,7 +79,7 @@ header nav {
     width: calc((100% / 12) *6);
 }
 
-.col_8, .md_8 {
+.col_8 {
     width: calc((100% / 12) *8);
 }
 
@@ -160,6 +160,15 @@ header nav {
     .md_6 {
         width: calc((100% / 12) *6);
     }
+
+    .md_8 {
+        width: calc((100% / 12) *8);
+    }
+
+    .md_4 {
+        width: calc((100% / 12) *4);
+    }
+
 }
    
 
