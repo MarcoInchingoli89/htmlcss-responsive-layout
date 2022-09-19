@@ -48,6 +48,30 @@ header nav {
     display: none;
 }
 
+/* Main */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col"] {
+    padding: 0 1rem;
+}
+
+.col_4, .md_4 {
+    width: calc((100% / 12) *4);
+}
+
+.col_8, .md_8 {
+    width: calc((100% / 12) *8);
+}
+
+.col_12 {
+    width: calc((100% / 12) *12);
+}
+
 /* Debug */
 
 .debug .logo {
@@ -60,6 +84,17 @@ header nav {
     height: 60px;
 }
 
+.debug .demo {
+    height: 500px;
+    background-color: red;
+}
+
+.debug [class^="col"] {
+    background-color: pink;
+    border: 1px solid black;
+    height: 250px;
+}
+
 /* Responsive */
 
 /* Mobile */
@@ -68,7 +103,8 @@ header nav {
     .main_menu {
         display: none;
     }
-}
+
+}    
 
 /* Tablet */
 @media screen and (min-width: 768px) {
