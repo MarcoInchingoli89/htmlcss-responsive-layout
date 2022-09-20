@@ -15,6 +15,14 @@ img {
     max-width: 100%;
 }
 
+.row {
+    row-gap: 2rem;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* Colors Palette */
 
 :root {
@@ -23,6 +31,7 @@ img {
     --secondary--: #0084FD;
     --dark--: #333333;
     --demo--: #B5DDFF;
+    --text--: #5E7385;
     --getstarted--: #C2BFEF;
     --bgtestimonial--: #E7E8EA;
     --free--: #FDC15F;
@@ -35,6 +44,7 @@ img {
 
 header {
     background-color: var(--secondary--);
+    margin-bottom: 2rem;
 }
 
 header nav {
@@ -70,33 +80,51 @@ nav img {
 /* Main */
 
 .card {
+    display: flex;
     background-color: var(--demo--);
     border-radius: 1.6rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
 }
 
-.content_text {
-    text-align: left;
-}
-
-.card h3 {
+.col_8 h3, i {
     color: var(--secondary--);
     padding: 1rem;
 }
 
+.card img {
+    max-width: 250px;
+    align-self: flex-end;
+}
+
+.card i {
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    color: var(--secondary--);
+}
+
 .card p {
+    line-height: 1.5rem;
+    font-weight: bold;
     padding-bottom: 2rem;
     padding-left: 1rem;
     font-size: 0.9rem;
-}
-
-.card img {
-    width: 150px;
-    margin-right: 2rem;
-    float: right;
+    color: var(--text--);
 }
 
 .card .btn_blue {
     margin-left: 1rem;
+}
+
+.col_4 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card_header h3 {
+    color: var(--secondary--);
 }
 
 .planning {
