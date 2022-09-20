@@ -77,10 +77,13 @@ nav img {
     color: var(--dark--);
 }
 
+.mobile_nav {
+    display: none;
+}
+
 .mobile_nav i {
     color: var(--bgwhite--);
     font-size: 1.5rem;
-    display: none;
 }
 
 /* Main */
@@ -119,7 +122,7 @@ nav img {
 .card p {
     line-height: 1.5rem;
     font-weight: bold;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
     font-size: 0.9rem;
     color: var(--text--);
@@ -288,7 +291,7 @@ footer {
         display: none;
     }
 
-    .mobile_nav i {
+    .mobile_nav {
         display: block;
     }
 
@@ -333,7 +336,7 @@ footer {
         display: none;
     }
 
-    .mobile_nav i {
+    .mobile_nav {
         display: block;
     }
 
